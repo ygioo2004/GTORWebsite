@@ -1,0 +1,56 @@
+@charset "utf-8"
+#menu ul, #menu li {
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+
+h1{ /*logo top bar */
+    font-family:serif, sans-serif;
+    font-weight:400;
+    height:60px;
+    width:100%
+    background:#CCC; /*color*/
+    line-height: 60px;
+    color:black; /*text color*/
+}
+div{
+    width: 250px;
+    height: 666px;
+    background: #CCC;
+    padding-left: 0px;
+
+}
+div a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    padding-right: 100px;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+div ul li{
+    list-style-type: none;
+    display: block;
+    padding: 15px;
+    border-bottom:1px solid #666;
+
+}
+div ul li:hover{
+    background: white;
+    transition: linear all 0.30s;
+    margin-left: 10px;
+}
+div ul li a:hover{
+    color:black;
+}
+/*.selected{
+    background:white;
+}
+.selected a{
+    color:black;
+}*/
