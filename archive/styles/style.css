@@ -1,0 +1,57 @@
+/*index.html css stylesheet*/
+@charset "utf-8"
+#menu ul, #menu li{
+    margin: 0px;
+    padding: 0px;
+}
+#nav ul, #nav li {
+    padding:0px;
+    margin:0px;
+}
+h1{ /*logo top bar */
+    font-family:serif, sans-serif;
+    font-weight:400;
+    height:100%;
+    width:100%
+    background:#6E6E6D; /*color*/
+    line-height: 60px;
+    color:black; /*text color*/
+}
+.navbar{
+    width: 220px;
+    height: 666px;
+    background: #6E6E6D;
+    padding-left: 0px;
+
+}
+div a{
+    text-decoration: none;
+    color: white;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+div ul li{
+    list-style-type: none;
+    display: block;
+    padding: 20px;
+    border-bottom:2px solid #B3B3B3;
+
+}
+div ul li:hover{
+    background: grey;
+    transition: linear all 0.30s;
+    margin-left: 0px;
+}
+div ul li a:hover{
+    color:black;
+}
+.top-banner{
+    padding: 0px;
+}
+/*.selected{
+    background:white;
+}
+.selected a{
+    color:black;
+}*/
