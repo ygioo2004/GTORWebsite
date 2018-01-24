@@ -55,7 +55,7 @@
 
 //Vertical Menu Side Navigation Bar
 
-#sideNav {
+#Nav {
     a{
         color:black;
     }
@@ -67,6 +67,10 @@
     a:hover{
         color:black;
     }
+}
+#offCanvasTop{
+    height:50px;
+    margin-top: 0px;
 }
 #banner{
     background:black;
@@ -88,9 +92,6 @@
     color: white;
     height: 100px;
 }
-#offCanvasLeft{
-    background: white;
-}
 footer{
     background: black;
     color: white;
@@ -108,10 +109,16 @@ footer hr{
 }
 #orbitpanel{
     background: black;
+    padding-top: 0px;
+    margin-top:0px;
 }
 .orbit-bullets{
     background: black;
 }
 .orbit{
     background: black;
+}
+
+.position-top.reveal-for-medium ~ .off-canvas-content{
+    margin-top:0px;
 }
