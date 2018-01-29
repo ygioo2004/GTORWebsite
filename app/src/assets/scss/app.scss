@@ -70,7 +70,7 @@
 }
 #offCanvasTop{
     height:40px;
-
+    border-bottom: 50px;
 }
 #banner{
     background:white;
@@ -87,11 +87,11 @@
 #gt-logo{
     width: 250px;
     height: 100px;
+    padding-left:10px;
 }
 
 #titlebar{
     background:white;
-    $topbar-menu-icon-color:black;
 }
 #offCanvasBottom{
     background: white;
@@ -113,11 +113,12 @@ footer a{
     display: block;
     color: black;
 }
-footer hr{
-    border-right:1px;
-    margin-top:5px;
-    margin-right: 10px;
-    padding-right: 1px;
+//Bold the Contact Us and Follow Us headers at the footer
+#contact-us{
+    font-weight: bold;
+}
+#follow-us{
+    font-weight: bold;
 }
 #orbitpanel{
     background: #f4f4f4;
