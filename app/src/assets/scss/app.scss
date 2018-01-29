@@ -69,8 +69,8 @@
     }
 }
 #offCanvasTop{
-    height:50px;
-    margin-top: 0px;
+    height:40px;
+
 }
 #banner{
     background:white;
@@ -89,15 +89,21 @@
     height: 100px;
 }
 
-
 #titlebar{
-    background:#cccecc;
+    background:white;
+    $topbar-menu-icon-color:black;
 }
 #offCanvasBottom{
     background: white;
     color: white;
     height: 100px;
 }
+//Changes the color of the menu icon for small screens
+.menu-icon::after {
+    background: #002364;
+    box-shadow: 0 7px 0 #002364, 0 14px 0 #002364;
+}
+//Adjusts footer appearance
 footer{
     background: #e2e2e2;
     color: black;
