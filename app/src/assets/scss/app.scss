@@ -68,26 +68,42 @@
         color:black;
     }
 }
+#SideNav {
+    a{
+        color:black;
+    }
+    li:hover{
+        background:grey;
+        transition:linear all 0.40s;
+        color:black;
+    }
+    a:hover{
+        color:black;
+    }
+}
+//Adjusts the navigation bar
 #offCanvasTop{
     height:40px;
     border-bottom: 50px;
 }
 #banner{
     background:white;
+    height: 65px;
 }
 #banner-fill{
     background:white;
+    height: 100px;
 }
 
 #gtor-logo{
-    width: 300px;
+    width: 250px;
     min-width:200px;
-    height: 100px;
+    height: 80px;
 }
 #gt-logo{
-    width: 250px;
-    height: 100px;
-    padding-left:10px;
+    width: 200px;
+    height: 80px;
+
 }
 
 #titlebar{
@@ -131,7 +147,6 @@ footer a{
 .orbit{
     background: #f4f4f4;
 }
-
 .position-top.reveal-for-medium ~ .off-canvas-content{
     margin-top:0px;
 }

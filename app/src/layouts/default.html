@@ -10,35 +10,35 @@
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
-      {{> navigation}}
+    {{> navigation}}
       <div class="off-canvas-wrapper">
           <div class = "off-canvas-wrapper-inner" data-off-canvas-wrapper>
                 {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
                 <div class="off-canvas position-top off-canvas-absolute reveal-for-large reveal-for-medium" id="offCanvasTop" data-transition="push" data-off-canvas>
                     <ul class="menu" id=Nav>
+                        <!--<li><a href="index.html"><img src="../assets/img/gtor-logo.PNG" style="height:60px; width=100px; margin-top:-10px;"></a>-->
                         <li><a href="index.html">Home</a></li>
                         <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="#">Sponsorship</a></li>
+                        <li><a href="Sponsorship.html">Sponsorship</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">How to Join</a></li>
                     </ul>
                 </div>
-                <div class="off-canvas position-left off-canvas-absolute hide-for-large hide-for-medium" id="offCanvasLeft" style="max-width:175px;" data-transition="overlap" data-off-canvas>
+                <div class="off-canvas position-left hide-for-large hide-for-medium" id="offCanvasLeft" style="max-width:175px;" data-transition="overlap" data-off-canvas>
                     <ul class="menu vertical" id=SideNav>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="#">Sponsorship</a></li>
+                        <li><a href="Sponsorship.html">Sponsorship</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">How to Join</a></li>
                     </ul>
                 </div>
-                <div class="off-canvas-content" data-off-canvas-content>
-                    {{> body}}
-                    {{> footer}}
-                </div>
             </div>
-    </div>
-
+            <div class="off-canvas-content" data-off-canvas-content>
+                {{> body}}
+                {{> footer}}
+            </div>
+        </div>
     <script src="{{root}}assets/js/app.js"></script>
   </body>
 </html>
