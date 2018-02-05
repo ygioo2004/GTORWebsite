@@ -84,7 +84,7 @@
 //Adjusts the navigation bar
 #offCanvasTop{
     height:40px;
-    border-bottom: 50px;
+    position: initial;
 }
 #banner{
     background:white;
@@ -94,16 +94,19 @@
     background:white;
     height: 100px;
 }
-
+//GTOR logo image at top left
 #gtor-logo{
     width: 250px;
     min-width:200px;
     height: 80px;
 }
+//GT logo image at top right
 #gt-logo{
     width: 200px;
     height: 80px;
-
+}
+//Cell that holds the GT logo at top right
+#gt-logo-cell{
 }
 
 #titlebar{
@@ -138,14 +141,16 @@ footer a{
 }
 #orbitpanel{
     background: #f4f4f4;
-    padding-top: 0px;
-    margin-top:0px;
+    max-height: 700px;
 }
 .orbit-bullets{
     background: #f4f4f4;
 }
 .orbit{
     background: #f4f4f4;
+}
+#cell-orbit{
+    
 }
 .position-top.reveal-for-medium ~ .off-canvas-content{
     margin-top:0px;

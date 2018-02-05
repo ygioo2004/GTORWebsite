@@ -1,37 +1,39 @@
-
-<div class="grid-x">
-
-    <div class="large-2 medium-2 cell" id="newsfeed">
-        <h3>Announcements</h3>
-    </h4>Upcoming Competitions</h4>
-    </div>
-
-    <div class="large-10 medium-10 cell" id="orbitpanel">
-        <div class="columns">
-            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-              <ul class="orbit-container">
-                    <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-                    <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-                    <li class="is-active orbit-slide">
-                      <img class="orbit-image" src="../assets/img/gtor-1.JPG" alt="2016">
-                      <figcaption class="orbit-caption">2016 Baja SAE Tennessee</figcaption>
-                    </li>
-                    <li class="is-active orbit-slide">
-                      <img class="orbit-image" src="../assets/img/gtor-2.JPG" alt="2017 Competition">
-                      <figcaption class="orbit-caption">2017 Baja SAE California</figcaption>
-                    </li>
-                    <li class="is-active orbit-slide">
-                      <img class="orbit-image" src="../assets/img/gtor-3.JPG" alt="2017 Competition">
-                      <figcaption class="orbit-caption">2017 Midnight Mayhem!</figcaption>
-                    </li>
-                </ul>
-                <nav class="orbit-bullets">
-                   <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-                   <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-                   <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-                   <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-                </nav>
+<div class="grid-container">
+    <div class="grid-x grid-margin-x">
+        <div class="cell" id="cell-orbit">
+            <div class="columns">
+                <div class="orbit" role="region" aria-label="Baja Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                  <ul class="orbit-container" id="orbitpanel">
+                        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                        <li class="is-active orbit-slide">
+                          <img class="orbit-image" src="../assets/img/gtor-1.JPG" style="max-height:700px"alt="2016">
+                          <figcaption class="orbit-caption">2017 Midnight Mayhem</figcaption>
+                        </li>
+                        <li class="is-active orbit-slide">
+                          <img class="orbit-image" src="../assets/img/gtor-2.JPG" style="max-height:700px" alt="2017 Competition">
+                          <figcaption class="orbit-caption">2017 Midnight Mayhem</figcaption>
+                        </li>
+                        <li class="is-active orbit-slide">
+                          <img class="orbit-image" src="../assets/img/gtor-3.JPG" style="max-height:700px" alt="2017 Competition">
+                          <figcaption class="orbit-caption">2017 Midnight Mayhem!</figcaption>
+                        </li>
+                    </ul>
+                    <nav class="orbit-bullets">
+                       <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                       <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                       <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                       <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                    </nav>
+                </div>
             </div>
+        </div>
+    </div>
+    <div class="grid-x grid-margin-x">
+        <div class="cell" id="newsfeed">
+            <h4 class="text-center">Upcoming Events</h4>
+            <h5 class="text-center">Baja SAE Maryland: April 19-22, 2018</h5>
+            <h5 class="text-center">Baja SAE Kansas: May 17-20, 2018</h5>
         </div>
     </div>
 </div>
