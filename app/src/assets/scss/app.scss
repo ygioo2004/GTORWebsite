@@ -87,8 +87,9 @@
     position: initial;
 }
 #banner{
-    background:white;
-    height: 65px;
+    background: url('../img/header-wallpaper.jpg') no-repeat;
+    background-size: cover;
+    height: 75px;
 }
 #banner-fill{
     background:white;
@@ -150,7 +151,7 @@ footer a{
     background: #f4f4f4;
 }
 #cell-orbit{
-    
+
 }
 .position-top.reveal-for-medium ~ .off-canvas-content{
     margin-top:0px;
