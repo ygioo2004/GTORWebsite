@@ -156,3 +156,17 @@ footer a{
 .position-top.reveal-for-medium ~ .off-canvas-content{
     margin-top:0px;
 }
+$hero-height: 80vh;
+.hero-section {
+  background: url('../img/gtor-main.JPG') 50% no-repeat;
+  background-size: cover;
+  height: $hero-height;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .hero-section-text {
+    color: $white;
+    text-shadow: 1px 1px 2px $black;
+  }
+}
