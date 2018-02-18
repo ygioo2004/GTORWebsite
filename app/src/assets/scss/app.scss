@@ -106,9 +106,7 @@
     width: 200px;
     height: 80px;
 }
-//Cell that holds the GT logo at top right
-#gt-logo-cell{
-}
+
 
 #titlebar{
     background:white;
@@ -140,19 +138,7 @@ footer a{
 #follow-us{
     font-weight: bold;
 }
-#orbitpanel{
-    background: #f4f4f4;
-    max-height: 700px;
-}
-.orbit-bullets{
-    background: #f4f4f4;
-}
-.orbit{
-    background: #f4f4f4;
-}
-#cell-orbit{
 
-}
 .position-top.reveal-for-medium ~ .off-canvas-content{
     margin-top:0px;
 }
@@ -169,4 +155,15 @@ $hero-height: 80vh;
     color: $white;
     text-shadow: 1px 1px 2px $black;
   }
+}
+.align-center {
+
+    -webkit-box-pack: center;
+
+    -webkit-justify-content: center;
+
+    -ms-flex-pack: center;
+
+    justify-content: center;
+
 }
