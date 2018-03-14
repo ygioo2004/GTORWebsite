@@ -180,11 +180,22 @@ $hero-height: 80vh;
     text-align: center;
 }
 .sponsor-plat-img {
-    max-width:300px;
+    max-width:500px;
 }
 .sponsor-gold-img {
-    max-width:100px;
+    max-width:200px;
+    max-height:175px;
+}
+.sponsor-silver-img {
+    max-width:175px;
 }
 .sponsor-bronze-img {
+    max-width:150px;
+}
+.sponsor-signature-img {
     max-width:100px;
+}
+.ranking-photo {
+    max-height:300px;
+    margin-top:20px;
 }
